@@ -21,6 +21,14 @@ GIT
       sprockets (>= 3.0.0)
 
 PATH
+  remote: ../active_model_serializers@1301b526
+  specs:
+    active_model_serializers (0.10.0.rc3)
+      actionpack (>= 4.0)
+      activemodel (>= 4.0)
+      railties (>= 4.0)
+
+PATH
   remote: ../rails@e9d15072
   specs:
     actionmailer (5.0.0.alpha)
@@ -123,6 +131,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers!
   arel!
   byebug
   rack!

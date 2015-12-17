@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', path: "../rails@e9d15072"
+gem 'active_model_serializers', path: "../active_model_serializers@1301b526"
 gem 'sprockets-rails', github: "rails/sprockets-rails"
 gem 'arel', github: "rails/arel"
 gem 'rack', github: "rack/rack"

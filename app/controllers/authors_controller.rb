@@ -10,7 +10,7 @@ class AuthorsController < ApplicationController
 
   # GET /authors/1
   def show
-    render json: @author
+    render json: @author, include: ['books']
   end
 
   # POST /authors

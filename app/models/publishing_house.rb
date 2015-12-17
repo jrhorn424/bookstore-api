@@ -1,0 +1,2 @@
+class PublishingHouse < ApplicationRecord
+end
